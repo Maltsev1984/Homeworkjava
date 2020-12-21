@@ -41,16 +41,16 @@ public class Main {
          если да – вернуть true, в противном случае – false.
         */
 
-        System.out.println("Введите первое число  ...");
+        System.out.println("Введите номер обелиска  ...");
         Scanner scanner = new Scanner(System.in);
         int v = scanner.nextInt();
-        System.out.println("Введите второе число ...");
+        System.out.println("Введите номер второго обелиска ...");
         Scanner scanner2 = new Scanner(System.in);
         int z = scanner2.nextInt();
         int sum = v + z;
         if (sum >= 10 && sum <= 20)
             System.out.println("TRU");
-        else System.out.println("Fals");
+        else System.out.println("Fals,");
 
             /* Написать метод, которому в качестве параметра передается целое число,
         метод должен напечатать в консоль, положительное ли число передали или отрицательное.
